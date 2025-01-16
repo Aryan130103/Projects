@@ -1,0 +1,95 @@
+.text2p{
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  opacity: 50%;
+  margin-top: 20px;
+  text-align: center;
+}
+.boxp{
+  margin-top: 0px;
+  height: 300px;
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  border-color: #ededed;
+  margin-bottom: 50px;
+}
+.n7p{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    opacity: 90%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.p{
+  display: flex;
+  height: 100px;
+  column-gap: 50px;
+  justify-content: center;
+}
+.p1,.p2,.p3,.p4,.p5{
+  width: 80px;
+}
+.p1{
+  margin-left: 300px;
+}
+.p5{
+  margin-right: 300px;
+}
+.p1 img,.p2 img,.p3 img,.p4 img,.p5 img{
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+.p1 div,.p2 div,.p3 div,.p4 div,.p5 div{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.p6{
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  opacity: 80%;
+  text-align: center;
+}
+.p7{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  opacity: 70%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.pg{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  column-gap: 100px;
+  border-bottom: 3px solid;
+  border-color: #ededed;
+}
+.pg1,.pg2,.pg3,.pg4{
+  width: 200px;
+  border: solid rgb(201, 201, 201);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.pg1 img,.pg2 img,.pg3 img,.pg4 img,.pg5 img{
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.pg1 div,.pg2 div,.pg3 div,.pg4 div,.pg5 div{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}

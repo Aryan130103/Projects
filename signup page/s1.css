@@ -1,0 +1,145 @@
+body{
+  background-color: rgb(10, 10, 230);
+}
+
+.b1{
+  background-color: white;
+  width: 400px;
+  height:480px;
+  margin-top: 90px;
+  margin-left:270px;
+  border-radius: 10px;
+
+}
+.b2{
+  padding-top: 20px;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.b3,.b4{
+  padding-left: 10px;
+  /* display: block; */
+  margin-bottom: 15px;
+  margin-left: 30px;
+  width: 325px;
+  height: 30px;
+  border-radius: 6px;
+  border-color: rgb(211, 208, 208);
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.b5{
+  margin-left: 145px;
+  color: rgb(41, 121, 226);
+  margin-bottom: 20px;
+}
+.b6{
+  background-color: rgb(10, 10, 230);
+  color: white;
+  margin-left: 30px;
+  width: 335px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.b7{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+span{
+  color: rgb(41, 121, 226);
+}
+.line{
+  margin-bottom: 20px;
+  margin-left: 180px;
+  color: gray;
+  }
+.b8{
+  background-color: rgb(50, 50, 161);
+  color: white;
+  padding-left : 10px;
+  /* margin-left: 30px; */
+  width: 335px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.b9{
+  background-color: white;
+  /* margin-left: 10px;s */
+  width: 335px;
+  height: 40px;
+  border-radius: 6px;
+  border-color: rgb(192, 187, 187);
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.p1{
+  position: absolute;
+}
+.i1{
+  position: relative;
+  left: 50px;
+  top: 10px ;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+}
+
+.i2{
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+}
+.p2{
+  position: absolute;
+}
+ .p2 .i2{
+  position: relative;
+  left: 50px;
+  top: 10px;
+ }
+ .b20{
+  background-color: white;
+  width: 400px;
+  height:520px;
+  margin-top: 70px;
+  margin-left: 100px;
+  border-radius: 10px;
+
+}
+.b20 .b2{
+  margin-bottom: 30px;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  column-gap: 100px;
+}
+
+.a1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media(max-width: 600px) { 
+  .box{
+      grid-template-columns: 500px;
+      .b1{
+        margin-left: 100px;
+      }
+  }
+}
